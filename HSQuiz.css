@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	display: flex;
+	background-color: skyblue;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+.box{
+	overflow: hidden;
+	width: 550px;
+	max-width: 100%;
+	box-shadow: 5px 5px 5px 5px #aaaaaa;
+	background-color: firebrick;
+	border-radius: 5px;
+}
+.header{
+	padding: 2rem;
+}
+h2{
+	padding: 1rem;
+	text-align: center;
+	margin: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #firebrick;
+    border: none;
+    color: black
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 5vh;
+    font-size: 1.5rem;
+    padding: 2rem;
+
+}
+button:hover{
+background-color: black;
+outline: none;
+color: white;
+display: block;
+    width: 100%;
+    height: 5vh;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
